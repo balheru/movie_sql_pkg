@@ -1,5 +1,8 @@
 CREATE OR REPLACE
 PACKAGE BODY MEMBERS AS
+-- todo add member id validation
+
+
 
 procedure new_member(first_name varchar2, last_name varchar2 , address varchar2, city varchar2 , phone varchar2) as
 begin

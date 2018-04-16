@@ -1,6 +1,6 @@
 CREATE OR REPLACE
-PACKAGE NEW_MEMBER AS
+PACKAGE MEMBERS AS
 
-  /* TODO enter package declarations (types, exceptions, methods etc) here */
+procedure new_member(first_name varchar2, last_name varchar2 , address varchar2, city varchar2 , phone varchar2);
 
-END NEW_MEMBER;
+END MEMBERS;
